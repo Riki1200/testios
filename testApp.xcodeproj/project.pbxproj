@@ -14,6 +14,27 @@
 		133C3D1A28C19AF7008585FD /* testAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D1928C19AF7008585FD /* testAppTests.swift */; };
 		133C3D2428C19AF7008585FD /* testAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D2328C19AF7008585FD /* testAppUITests.swift */; };
 		133C3D2628C19AF7008585FD /* testAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D2528C19AF7008585FD /* testAppUITestsLaunchTests.swift */; };
+		133C3D3828C19C37008585FD /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D3728C19C37008585FD /* GameScreen.swift */; };
+		133C3D3A28C19C44008585FD /* MovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D3928C19C44008585FD /* MovieScreen.swift */; };
+		133C3D3D28C1AC6C008585FD /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D3C28C1AC6C008585FD /* SplashScreen.swift */; };
+		133C3D4428C1D059008585FD /* MovieScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D4328C1D059008585FD /* MovieScreenViewModel.swift */; };
+		133C3D4628C22437008585FD /* GameScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D4528C22437008585FD /* GameScreenViewModel.swift */; };
+		133C3D4928C22478008585FD /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D4828C22478008585FD /* Api.swift */; };
+		133C3D4B28C226EA008585FD /* RandomGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D4A28C226EA008585FD /* RandomGamesModel.swift */; };
+		133C3D4E28C22A26008585FD /* GamesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D4D28C22A26008585FD /* GamesMock.swift */; };
+		133C3D5028C22CBB008585FD /* GamesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D4F28C22CBB008585FD /* GamesItem.swift */; };
+		133C3D5228C23AC9008585FD /* EnumType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D5128C23AC9008585FD /* EnumType.swift */; };
+		133C3D5528C25849008585FD /* NumbersRandomWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D5428C25849008585FD /* NumbersRandomWidget.swift */; };
+		133C3D5728C2950C008585FD /* OddNumberWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D5628C2950C008585FD /* OddNumberWidget.swift */; };
+		133C3D5A28C3E7B0008585FD /* Uniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D5928C3E7B0008585FD /* Uniques.swift */; };
+		133C3D5D28C40EEC008585FD /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D5C28C40EEC008585FD /* List.swift */; };
+		133C3D5F28C411BA008585FD /* PrimeNumberWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D5E28C411BA008585FD /* PrimeNumberWidget.swift */; };
+		133C3D6128C48ABF008585FD /* ATMWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D6028C48ABF008585FD /* ATMWidget.swift */; };
+		133C3D6328C5CB4F008585FD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D6228C5CB4F008585FD /* Movie.swift */; };
+		133C3D6528C5CCB3008585FD /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D6428C5CCB3008585FD /* MovieRepository.swift */; };
+		133C3D6728C5D73E008585FD /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D6628C5D73E008585FD /* ResultData.swift */; };
+		133C3D6928C5E7BB008585FD /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D6828C5E7BB008585FD /* MovieDetail.swift */; };
+		13876FF828C64051007F310E /* MovieFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13876FF728C64051007F310E /* MovieFavorite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +65,27 @@
 		133C3D1F28C19AF7008585FD /* testAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		133C3D2328C19AF7008585FD /* testAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITests.swift; sourceTree = "<group>"; };
 		133C3D2528C19AF7008585FD /* testAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		133C3D3728C19C37008585FD /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		133C3D3928C19C44008585FD /* MovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScreen.swift; sourceTree = "<group>"; };
+		133C3D3C28C1AC6C008585FD /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		133C3D4328C1D059008585FD /* MovieScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScreenViewModel.swift; sourceTree = "<group>"; };
+		133C3D4528C22437008585FD /* GameScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewModel.swift; sourceTree = "<group>"; };
+		133C3D4828C22478008585FD /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		133C3D4A28C226EA008585FD /* RandomGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGamesModel.swift; sourceTree = "<group>"; };
+		133C3D4D28C22A26008585FD /* GamesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesMock.swift; sourceTree = "<group>"; };
+		133C3D4F28C22CBB008585FD /* GamesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesItem.swift; sourceTree = "<group>"; };
+		133C3D5128C23AC9008585FD /* EnumType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumType.swift; sourceTree = "<group>"; };
+		133C3D5428C25849008585FD /* NumbersRandomWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersRandomWidget.swift; sourceTree = "<group>"; };
+		133C3D5628C2950C008585FD /* OddNumberWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddNumberWidget.swift; sourceTree = "<group>"; };
+		133C3D5928C3E7B0008585FD /* Uniques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uniques.swift; sourceTree = "<group>"; };
+		133C3D5C28C40EEC008585FD /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		133C3D5E28C411BA008585FD /* PrimeNumberWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberWidget.swift; sourceTree = "<group>"; };
+		133C3D6028C48ABF008585FD /* ATMWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMWidget.swift; sourceTree = "<group>"; };
+		133C3D6228C5CB4F008585FD /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		133C3D6428C5CCB3008585FD /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
+		133C3D6628C5D73E008585FD /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
+		133C3D6828C5E7BB008585FD /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		13876FF728C64051007F310E /* MovieFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFavorite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +136,10 @@
 		133C3D0728C19AF5008585FD /* testApp */ = {
 			isa = PBXGroup;
 			children = (
-				133C3D0828C19AF5008585FD /* testAppApp.swift */,
-				133C3D0A28C19AF5008585FD /* ContentView.swift */,
+				133C3D3328C19B08008585FD /* Core */,
+				133C3D3228C19B02008585FD /* Ui */,
 				133C3D0C28C19AF6008585FD /* Assets.xcassets */,
+				133C3D0828C19AF5008585FD /* testAppApp.swift */,
 				133C3D0E28C19AF6008585FD /* Preview Content */,
 			);
 			path = testApp;
@@ -125,6 +168,146 @@
 				133C3D2528C19AF7008585FD /* testAppUITestsLaunchTests.swift */,
 			);
 			path = testAppUITests;
+			sourceTree = "<group>";
+		};
+		133C3D3228C19B02008585FD /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D3B28C1AC5B008585FD /* SplashScreen */,
+				133C3D3628C19B7B008585FD /* MovieScreen */,
+				133C3D3528C19B14008585FD /* GameScreen */,
+				133C3D3428C19B0E008585FD /* MainScreen */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		133C3D3328C19B08008585FD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D4C28C22A10008585FD /* MockData */,
+				133C3D4228C1CE50008585FD /* Utils */,
+				133C3D4128C1CE49008585FD /* Model */,
+				133C3D3E28C1CE21008585FD /* Data */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		133C3D3428C19B0E008585FD /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D0A28C19AF5008585FD /* ContentView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		133C3D3528C19B14008585FD /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D5328C25834008585FD /* Widgets */,
+				133C3D3728C19C37008585FD /* GameScreen.swift */,
+				133C3D4528C22437008585FD /* GameScreenViewModel.swift */,
+				133C3D4F28C22CBB008585FD /* GamesItem.swift */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		133C3D3628C19B7B008585FD /* MovieScreen */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D3928C19C44008585FD /* MovieScreen.swift */,
+				133C3D4328C1D059008585FD /* MovieScreenViewModel.swift */,
+				133C3D6828C5E7BB008585FD /* MovieDetail.swift */,
+				13876FF728C64051007F310E /* MovieFavorite.swift */,
+			);
+			path = MovieScreen;
+			sourceTree = "<group>";
+		};
+		133C3D3B28C1AC5B008585FD /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D3C28C1AC6C008585FD /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		133C3D3E28C1CE21008585FD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D4028C1CE3F008585FD /* Repositories */,
+				133C3D3F28C1CE2E008585FD /* DataSource */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		133C3D3F28C1CE2E008585FD /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D4728C22467008585FD /* Remote */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		133C3D4028C1CE3F008585FD /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D6428C5CCB3008585FD /* MovieRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		133C3D4128C1CE49008585FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D4A28C226EA008585FD /* RandomGamesModel.swift */,
+				133C3D5128C23AC9008585FD /* EnumType.swift */,
+				133C3D6228C5CB4F008585FD /* Movie.swift */,
+				133C3D6628C5D73E008585FD /* ResultData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		133C3D4228C1CE50008585FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D5928C3E7B0008585FD /* Uniques.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		133C3D4728C22467008585FD /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D4828C22478008585FD /* Api.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		133C3D4C28C22A10008585FD /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D4D28C22A26008585FD /* GamesMock.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		133C3D5328C25834008585FD /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D5B28C40ECE008585FD /* Common */,
+				133C3D5428C25849008585FD /* NumbersRandomWidget.swift */,
+				133C3D5628C2950C008585FD /* OddNumberWidget.swift */,
+				133C3D5E28C411BA008585FD /* PrimeNumberWidget.swift */,
+				133C3D6028C48ABF008585FD /* ATMWidget.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		133C3D5B28C40ECE008585FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				133C3D5C28C40EEC008585FD /* List.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +440,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133C3D6328C5CB4F008585FD /* Movie.swift in Sources */,
+				133C3D4628C22437008585FD /* GameScreenViewModel.swift in Sources */,
+				133C3D5D28C40EEC008585FD /* List.swift in Sources */,
+				133C3D3D28C1AC6C008585FD /* SplashScreen.swift in Sources */,
+				133C3D5F28C411BA008585FD /* PrimeNumberWidget.swift in Sources */,
+				133C3D3A28C19C44008585FD /* MovieScreen.swift in Sources */,
 				133C3D0B28C19AF5008585FD /* ContentView.swift in Sources */,
+				133C3D6128C48ABF008585FD /* ATMWidget.swift in Sources */,
+				133C3D6528C5CCB3008585FD /* MovieRepository.swift in Sources */,
+				133C3D3828C19C37008585FD /* GameScreen.swift in Sources */,
+				133C3D4B28C226EA008585FD /* RandomGamesModel.swift in Sources */,
+				133C3D6728C5D73E008585FD /* ResultData.swift in Sources */,
+				133C3D5528C25849008585FD /* NumbersRandomWidget.swift in Sources */,
+				133C3D5028C22CBB008585FD /* GamesItem.swift in Sources */,
 				133C3D0928C19AF5008585FD /* testAppApp.swift in Sources */,
+				133C3D5228C23AC9008585FD /* EnumType.swift in Sources */,
+				133C3D4928C22478008585FD /* Api.swift in Sources */,
+				13876FF828C64051007F310E /* MovieFavorite.swift in Sources */,
+				133C3D5A28C3E7B0008585FD /* Uniques.swift in Sources */,
+				133C3D4428C1D059008585FD /* MovieScreenViewModel.swift in Sources */,
+				133C3D5728C2950C008585FD /* OddNumberWidget.swift in Sources */,
+				133C3D4E28C22A26008585FD /* GamesMock.swift in Sources */,
+				133C3D6928C5E7BB008585FD /* MovieDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
