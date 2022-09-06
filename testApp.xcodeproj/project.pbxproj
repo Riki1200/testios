@@ -35,6 +35,9 @@
 		133C3D6728C5D73E008585FD /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D6628C5D73E008585FD /* ResultData.swift */; };
 		133C3D6928C5E7BB008585FD /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133C3D6828C5E7BB008585FD /* MovieDetail.swift */; };
 		13876FF828C64051007F310E /* MovieFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13876FF728C64051007F310E /* MovieFavorite.swift */; };
+		13876FFA28C6FF96007F310E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13876FF928C6FF96007F310E /* ImageLoader.swift */; };
+		13876FFF28C7030A007F310E /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13876FFE28C7030A007F310E /* ImageView.swift */; };
+		1387700228C70708007F310E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1387700128C70708007F310E /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +89,8 @@
 		133C3D6628C5D73E008585FD /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
 		133C3D6828C5E7BB008585FD /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		13876FF728C64051007F310E /* MovieFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFavorite.swift; sourceTree = "<group>"; };
+		13876FF928C6FF96007F310E /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		13876FFE28C7030A007F310E /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1387700228C70708007F310E /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +220,7 @@
 		133C3D3628C19B7B008585FD /* MovieScreen */ = {
 			isa = PBXGroup;
 			children = (
+				13876FFB28C702EB007F310E /* Widget */,
 				133C3D3928C19C44008585FD /* MovieScreen.swift */,
 				133C3D4328C1D059008585FD /* MovieScreenViewModel.swift */,
 				133C3D6828C5E7BB008585FD /* MovieDetail.swift */,
@@ -270,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				133C3D5928C3E7B0008585FD /* Uniques.swift */,
+				13876FF928C6FF96007F310E /* ImageLoader.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -310,6 +318,22 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		13876FFB28C702EB007F310E /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				13876FFD28C702FA007F310E /* Common */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		13876FFD28C702FA007F310E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				13876FFE28C7030A007F310E /* ImageView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,6 +350,9 @@
 			dependencies = (
 			);
 			name = testApp;
+			packageProductDependencies = (
+				1387700128C70708007F310E /* SDWebImageSwiftUI */,
+			);
 			productName = testApp;
 			productReference = 133C3D0528C19AF5008585FD /* testApp.app */;
 			productType = "com.apple.product-type.application";
@@ -398,6 +425,9 @@
 				Base,
 			);
 			mainGroup = 133C3CFC28C19AF5008585FD;
+			packageReferences = (
+				1387700028C70708007F310E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 133C3D0628C19AF5008585FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -440,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13876FFF28C7030A007F310E /* ImageView.swift in Sources */,
 				133C3D6328C5CB4F008585FD /* Movie.swift in Sources */,
 				133C3D4628C22437008585FD /* GameScreenViewModel.swift in Sources */,
 				133C3D5D28C40EEC008585FD /* List.swift in Sources */,
@@ -454,6 +485,7 @@
 				133C3D6728C5D73E008585FD /* ResultData.swift in Sources */,
 				133C3D5528C25849008585FD /* NumbersRandomWidget.swift in Sources */,
 				133C3D5028C22CBB008585FD /* GamesItem.swift in Sources */,
+				13876FFA28C6FF96007F310E /* ImageLoader.swift in Sources */,
 				133C3D0928C19AF5008585FD /* testAppApp.swift in Sources */,
 				133C3D5228C23AC9008585FD /* EnumType.swift in Sources */,
 				133C3D4928C22478008585FD /* Api.swift in Sources */,
@@ -787,6 +819,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1387700028C70708007F310E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1387700128C70708007F310E /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1387700028C70708007F310E /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 133C3CFD28C19AF5008585FD /* Project object */;
 }

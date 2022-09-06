@@ -25,6 +25,10 @@ struct MovieScreen: View {
                     }.hidden()
 
                 VStack {
+                    
+                   
+                        
+                   
                     ForEach(injectedModel.movies, id: \.id) { movie in
                         var t = false
                         HStack {
